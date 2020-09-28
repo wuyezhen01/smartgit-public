@@ -41,3 +41,6 @@ add conflict
 
 --------------cherry pick
 切换分支，然后在另一个分支上的某个commit上右击，选择cherry pick就可以把该commit，提交到当前分支。
+
+--------------git revert
+add revert
