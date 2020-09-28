@@ -38,3 +38,6 @@ git diff HEAD：是查看working tree和commit的差别的，在这里HEAD代表
 原文链接：https://blog.csdn.net/heart_mine/java/article/details/79424591
 -------------
 add conflict
+
+--------------cherry pick
+切换分支，然后在另一个分支上的某个commit上右击，选择cherry pick就可以把该commit，提交到当前分支。
