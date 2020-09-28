@@ -43,4 +43,17 @@ add conflict
 切换分支，然后在另一个分支上的某个commit上右击，选择cherry pick就可以把该commit，提交到当前分支。
 
 --------------git revert
-add revert
+
+2.使用“git revert -n 版本号”反做，并使用“git commit -m 版本名”提交：
+（1）反做，使用“git revert -n 版本号”命令。如下命令，我们反做版本号为8b89621的版本：
+
+git revert -n 8b89621019c9adc6fc4d242cd41daeb13aeb9861
+1
+注意： 这里可能会出现冲突，那么需要手动修改冲突的文件。而且要git add 文件名。
+（2）提交，使用“git commit -m 版本名”，如：
+
+git commit -m "revert add text.txt" 
+1
+此时可以用“git log”查看本地的版本信息，可见多生成了一个新的版本，该版本反做了“add text.txt”版本，但是保留了“add text2.txt”版本：
+
+
