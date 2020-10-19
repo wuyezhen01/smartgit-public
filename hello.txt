@@ -1,4 +1,8 @@
-Ver:00001.001_(smartgit-public.01.000)
+Ver:00001.001_(smartgit-public-master.02.000)
+
+-------------
+test merge branch
+-------------
 
 0428
 hello
