@@ -1,5 +1,6 @@
-Ver:00001.001_(smartgit-public-master.05.000)
-
+Ver:00001.001_(smartgit-public-merge-branch.00.000)
+----------
+rebase master after modify version merge-branch.00
 ----------
 master 添加代码版本05
 ----------
