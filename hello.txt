@@ -1,3 +1,5 @@
+Ver:00001.001_(smartgit-public.01.000)
+
 0428
 hello
 modify first
