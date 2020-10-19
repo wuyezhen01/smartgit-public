@@ -1,4 +1,6 @@
-Ver:00001.001_(smartgit-public-master.03.000)
+Ver:00001.001_(smartgit-public-master.04.000)
+----------
+master 添加代码版本04
 -------------
 add modify 
 -------------
