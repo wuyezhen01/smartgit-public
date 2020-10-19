@@ -1,6 +1,6 @@
-Ver:00001.001_(smartgit-public-master.08.000)
+Ver:00001.001_(smartgit-public-merge-branch.00.002)
 ----------
-rebase test-master.08.000
+rebase merge-branch form master.08.001
 ----------
 rebase test-07
 ----------
