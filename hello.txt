@@ -1,4 +1,6 @@
-Ver:00001.001_(smartgit-public-master.06.000)
+Ver:00001.001_(smartgit-public-master.07.000)
+----------
+rebase test-07
 ----------
 master 添加代码版本06
 ----------
