@@ -1,3 +1,75 @@
+
+
+----------
+master 添加代码版本05
+----------
+master 添加代码版本04
+-------------
+add modify 
+-------------
+test merge branch
+-------------
+
+0428
+hello
+modify first
+
+右键第一个版本的记录，选择Reset可以回归到这个版本。Reset有三种模式可以选择，mixed、soft、hard。
+mixed：工作区不变，reset暂存区、reset当前分支
+
+soft：工作区不变、暂存区不变、reset当前分支
+
+hard：reset工作区、reset暂存区、reset当前分支
+
+------
+test reset soft
+
+-------
+test reset soft work
+
+
+HEAD VS INDEX VS WORKING TREE
+
+-------
+这三个名字可以简单理解为文件在本地仓库存在的三种不同的位置。
+
+如下，是做commit提交两段提交过程，工作区(working tree)，暂存区（index）和 branch（commit）。
+
+
+
+working tree：就是你所工作在的目录，每当你在代码中进行了修改，working tree的状态就改变了。
+
+index file：是索引文件，它是连接working tree和commit的桥梁，每当我们使用git-add命令来登记后，index file的内容就改变了，此时index file就和working tree同步了。
+commit：是最后的阶段，只有commit了，我们的代码才真正进入了git仓库。我们使用git-commit就是将index file里的内容提交到commit中。
+总结一下：
+git diff：是查看working tree与index file的差别的。
+git diff --cached：是查看index file与commit的差别的。
+git diff HEAD：是查看working tree和commit的差别的，在这里HEAD代表的是最近的一次commit的信息。
+————————————————
+版权声明：本文为CSDN博主「生活因我绚丽」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/heart_mine/java/article/details/79424591
+-------------
+add conflict
+
+--------------cherry pick
+切换分支，然后在另一个分支上的某个commit上右击，选择cherry pick就可以把该commit，提交到当前分支。
+
+--------------git revert
+2.使用“git revert -n 版本号”反做，并使用“git commit -m 版本名”提交：
+（1）反做，使用“git revert -n 版本号”命令。如下命令，我们反做版本号为8b89621的版本：
+
+git revert -n 8b89621019c9adc6fc4d242cd41daeb13aeb9861
+1
+注意： 这里可能会出现冲突，那么需要手动修改冲突的文件。而且要git add 文件名。
+（2）提交，使用“git commit -m 版本名”，如：
+
+git commit -m "revert add text.txt" 
+1
+此时可以用“git log”查看本地的版本信息，可见多生成了一个新的版本，该版本反做了“add text.txt”版本，但是保留了“add text2.txt”版本：
+
+
+
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 Ver:00001.001_(smartgit-public-merge-branch.00.002)
