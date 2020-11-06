@@ -1,4 +1,6 @@
-Ver:00001.001_(smartgit-public-merge-branch.00.001)
+Ver:00001.001_(smartgit-public-merge-branch.00.002)
+----------
+pre rebase 002 merge-branch.00.002
 ----------
 pre rebase 001
 ----------
