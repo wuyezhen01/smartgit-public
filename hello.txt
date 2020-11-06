@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Ver:00001.001_(smartgit-public-merge-branch.00.002)
+=======
+Ver:00001.001_(smartgit-public-merge-branch.00.001)
+----------
+pre rebase 001
+>>>>>>> pre rebase 001
 ----------
 rebase merge-branch form master.08.001
 ----------
