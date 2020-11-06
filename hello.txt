@@ -1,7 +1,8 @@
-Ver:00001.001_(smartgit-merge-master.00.001)
+Ver:00001.001_(smartgit-merge-master.00.002)
 ----------
 ----------
 ----------
+rebase test-02
 ----------
 Ver:00001.001_(smartgit-merge-master.00.001)
 ----------
